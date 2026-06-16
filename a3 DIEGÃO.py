@@ -6,7 +6,7 @@ class SimuladorRover:
         self.direcao = 'N'
         self.lista_direcoes = ['N', 'E', 'S', 'W']
 
-        self.obstaculos = [(3, 3), (3, 4), (10, 10), (7, 5), (12, 2)]
+        self.obstaculos = [(3, 3), (3, 4), (10, 10), (7, 5), (1, 1), (6, 8), (14, 4), (15, 9), (12, 2), (11, 7), (9, 3),]
 
     def imprimir_ambiente(self):
         print("\n--- STATUS ATUAL ---")
